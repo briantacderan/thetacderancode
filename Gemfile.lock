@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/ruby/net-pop.git
+  revision: e8d0afe2773b9eb6a23c39e9e437f6fc0fc7c733
+  specs:
+    net-pop (0.1.2)
+      net-protocol
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -1710,7 +1717,6 @@ GEM
     net-imap (0.4.14)
       date
       net-protocol
-    net-pop (0.1.2)
     net-protocol (0.2.2)
       timeout
     net-smtp (0.5.0)
@@ -1874,7 +1880,7 @@ DEPENDENCIES
   jbuilder (~> 2.7)
   listen (~> 3.3)
   net-http
-  net-pop
+  net-pop!
   paperclip (~> 6.1)
   pg (~> 1.5.4)
   puma (~> 6.4.0)

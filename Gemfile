@@ -77,7 +77,7 @@ gem 'aws-sdk', '~> 3.0', '>= 3.0.1'
 
 # Fixed protocol initialization errors
 gem 'net-http'
-gem "net-pop", require: false
+gem "net-pop", github: "ruby/net-pop"
 
 
 # Dark/Light Time of Day transition Data
