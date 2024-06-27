@@ -77,7 +77,8 @@ gem 'aws-sdk', '~> 3.0', '>= 3.0.1'
 
 # Fixed protocol initialization errors
 gem 'net-http'
-gem 'net-protocol'
+gem "net-pop", require: false
+
 
 # Dark/Light Time of Day transition Data
 gem 'RubySunrise', '~> 0.3.3'
